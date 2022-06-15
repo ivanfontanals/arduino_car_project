@@ -1,0 +1,12 @@
+pio project init --board uno --board nodemcuv2 --board teensy31
+Useful commands:
+`pio run` - process/build project from the current directory
+`pio run --target upload` or `pio run -t upload` - upload firmware to embedded board
+`pio run --target clean` - clean project (remove compiled files)
+
+“platformio.ini” (Project Configuration File)
+
+src directory where you should place source code (*.h, *.c, *.cpp, *.S, *.ino, etc.)
+lib directory can be used for the project specific (private) libraries. More details are located in lib/README file.
+Miscellaneous files for VCS and Continuous Integration support.
+
